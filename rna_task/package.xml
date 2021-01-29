@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rna_task</name>
+  <version>0.0.0</version>
+  <description>Tasks for the RnA Club (IITP)</description>
+
+  <maintainer email="mayank9liverpool@gmail.com">mayank</maintainer>
+  <license>BSD</license>
+  <author email="mayank9liverpool@gmail.com">Mayank Kumar</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  
+</package>
